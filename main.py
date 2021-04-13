@@ -6,9 +6,9 @@ client = commands.Bot(command_prefix="/");
 
 @client.event
 async def on_ready():
-  print('MOD6 moderating server')
+  print('MOD5 moderating server')
   print("Bot" + client.user.name)
-  print("MOD6 ID" + client.user.id)
+  print("MOD5 ID" + client.user.id)
   print('------')
 
 @client.command()

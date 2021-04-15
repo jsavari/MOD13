@@ -11,7 +11,7 @@ class Example(commands.Cog):
 		print('Bot is online')
 	
 	#@commands.command()
-  #add custom command here
+        #add custom command here
 
 def setup(client):
 	client.add_cog(Example(client))

@@ -6,8 +6,8 @@ client = commands.Bot(command_prefix=".");
 
 @client.event
 async def on_ready():
-  print('MOD5 deployed')
-  print(f'MOD5 ID: {client.user.id}')
+  print('MOD13 deployed')
+  print(f'MOD13 ID: {client.user.id}')
   print('------')
 
 @client.command()

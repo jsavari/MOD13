@@ -8,7 +8,6 @@ client = commands.Bot(command_prefix=".");
 async def on_ready():
   print('MOD13 deployed')
   print(f'MOD13 ID: {client.user.id}')
-  print('------')
 
 @client.command()
 async def ping(ctx):

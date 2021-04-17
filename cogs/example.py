@@ -8,7 +8,8 @@ class Example(commands.Cog):
 
 	@commands.Cog.listener()
 	async def on_ready(self):
-		print('Bot is online')
+		print('MOD13 Cog Extension Unloaded')
+		print('-----')
 	
 	#@commands.command()
         #add custom command here
